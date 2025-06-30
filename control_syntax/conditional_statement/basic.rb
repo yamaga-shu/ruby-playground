@@ -1,10 +1,15 @@
 i = 10
 
+# Basic if statement
 if i == 10
-  puts '変数iは10です。'
+  puts 'Variable i is 10.'
 else
-  puts '変数iは10ではありません。'
+  puts 'Variable i is not 10.'
 end
+## Output:
+## 'Variable i is 10.
 
-# Output:
-# 変数iは10です。
+# ternary operator
+puts i == 10 ? 'Variable i is 10.' : 'Variable i is not 10.'
+## Output:
+## 'Variable i is 10.
