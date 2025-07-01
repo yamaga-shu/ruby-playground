@@ -19,4 +19,4 @@ puts message
 # Postfix `unless` statement
 puts 'Variable x is NOT 10.' unless x == 10
 ## Output:
-## Variable x is NOT 1 0.
+## Variable x is NOT 10.
